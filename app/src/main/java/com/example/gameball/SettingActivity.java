@@ -60,11 +60,15 @@ public class SettingActivity extends Activity {
         String diameter = ((EditText)findViewById(R.id.diameter)).getText().toString();
         if(diameter.compareTo("") == 0)
         {
+            Toast.makeText(this,"Fill the diameterBox!!!!!!!!!!",Toast.LENGTH_SHORT).show();
+        }
+        else {
             int d = Integer.parseInt(diameter);
             intent.putExtra("diameter", d);
+            setResult(Activity.RESULT_OK, intent);
+            finish();
+            super.onBackPressed();
         }
-        setResult(Activity.RESULT_OK,intent);
-        finish();
-        super.onBackPressed();
+
     }
 }
