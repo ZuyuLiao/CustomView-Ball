@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GameBall</string>
+    <integer name="color">0x000000</integer>
+    <integer name="x">80</integer>
+    <integer name="y">80</integer>
+    <integer name="diameter">40</integer>
+    <integer name="control">0</integer>
+
+</resources>

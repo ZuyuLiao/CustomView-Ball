@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BallView">
+        <attr name="diameter" format="integer"/>
+        <attr name="color" format="color"/>
+        <attr name="directionX" format="integer"/>
+        <attr name="directionY" format="integer"/>
+        <attr name="control" format="integer"/>
+    </declare-styleable>
+</resources>
